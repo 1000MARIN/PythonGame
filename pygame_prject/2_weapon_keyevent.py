@@ -103,7 +103,7 @@ while running:
 
     screen.blit(stage, (0, screen_height - stage_height))
     screen.blit(character, (character_x_pos, character_y_pos))
-
+    
     pygame.display.update()
 
 # pygame 종료
