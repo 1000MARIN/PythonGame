@@ -53,8 +53,6 @@ weapons = []
 # 무기 이동 속도
 weapon_speed = 10
 
-
-
 # 이벤트 루프
 running = True
 while running:
@@ -106,8 +104,6 @@ while running:
     screen.blit(stage, (0, screen_height - stage_height))
     screen.blit(character, (character_x_pos, character_y_pos))
 
-    
-    
     pygame.display.update()
 
 # pygame 종료
